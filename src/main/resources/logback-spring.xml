@@ -21,20 +21,23 @@
 	</appender>
 
 
-    <appender name="LOGSTASH" class="ch.qos.logback.core.ConsoleAppender">
+    <appender name="STASH" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
 		<destination>${logstash}</destination>
 		<encoder class="net.logstash.logback.encoder.LogstashEncoder">
 			<includeCallerData>true</includeCallerData>
 			<customFields>{"appname": "${appname}"}</customFields>
 		</encoder>
 	</appender>
+
 		
 	<root level="INFO"> 
-		<appender-ref ref="LOGSTASH"/>
+		<appender-ref ref="STASH"/>
+		<appender-ref ref="NORMAL"/>
 	</root>
 
 	<logger name="servicio" level="ERROR">
-		<appender-ref ref="LOGSTASH"/>
+		<appender-ref ref="STASH"/>
+		<appender-ref ref="NORMAL"/>
 	</logger>
 
 </configuration>
