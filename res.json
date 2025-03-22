@@ -1,0 +1,23 @@
+{
+    "@timestamp": "2025-03-22T08:49:41.913570735-05:00",
+    "@version": "1",
+    "logger_name": "com.lite.app.ms_productos.infra.rest.ProductController",
+    "thread_name": "http-nio-8080-exec-1",
+    "level": "INFO",
+    "level_value": 20000,
+    "data"  : {
+        "idProducto": "1",
+        "description": "Product 1"
+    },
+    
+    "exceptions": {
+        "id": "1",
+        "msg": "Product 1"
+    },
+
+    "caller_class_name": "com.lite.app.ms_productos.infra.rest.ProductController",
+    "caller_method_name": "getProducts",
+    "caller_file_name": "ProductController.java",
+    "caller_line_number": 29,
+    "appname": "ms-mz-producto"
+  }
