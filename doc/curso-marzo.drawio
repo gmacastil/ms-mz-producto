@@ -1871,7 +1871,10 @@
         <mxCell id="OAUSptKNvwQkLJGI8u-V-199" value="PR" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
           <mxGeometry x="590" y="4500" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OAUSptKNvwQkLJGI8u-V-200" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+        <mxCell id="OAUSptKNvwQkLJGI8u-V-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OAUSptKNvwQkLJGI8u-V-200" target="OAUSptKNvwQkLJGI8u-V-170">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OAUSptKNvwQkLJGI8u-V-200" value="sonar" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="480" y="4642.2" width="62" height="35.6" as="geometry" />
         </mxCell>
         <mxCell id="OAUSptKNvwQkLJGI8u-V-201" value="codespaces" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
