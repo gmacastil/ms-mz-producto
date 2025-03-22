@@ -15,8 +15,11 @@ public class ProductController {
 
     @GetMapping("/products")
     public Product getProducts() {
-        System.out.println("ProductController.getProducts()");
-        return new Product("1", "Product 1", "Description 1");
+        //System.out.println("ProductController.getProducts()");
+        
+        Product product = new Product("1", "Product 1", "Description 1");
+        log.info("product: {}", product);
+        return product;
     }
     
 }
