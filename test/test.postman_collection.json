@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "f19ab1af-2c6a-4d99-b5b7-d865b4f79d7d",
+		"name": "test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4835378"
+	},
+	"item": [
+		{
+			"name": "marzo",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code\", function () {",
+							"    pm.response.to.have.status(data['codigo']);",
+							"});",
+							"",
+							"pm.test(\"Product Name\", function () {",
+							"    //var jsonData = pm.response.json();",
+							"    pm.expect(pm.response.text()).to.include(data['res']);",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/product/{{id}}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"product",
+						"{{id}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
