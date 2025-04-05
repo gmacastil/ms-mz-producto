@@ -1,4 +1,4 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1" pages="11">
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2" pages="12">
   <diagram name="Page-1" id="x0uu8YQguk1hqVdrJvpu">
     <mxGraphModel dx="1301" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2215,6 +2215,106 @@
         </mxCell>
         <mxCell id="MXCWZkKiN-zw6omp-37X-33" value="cre" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
           <mxGeometry x="360" y="460" width="50" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ERkOfw6OSlv0P02YmfNq" name="Page-12">
+    <mxGraphModel dx="2296" dy="1338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="g-UDGQAxc-pjcr50-N9k-5" value="Registry" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-220" y="170" width="200" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="g-UDGQAxc-pjcr50-N9k-6" value="MV + docker" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;arcSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-230" width="460" height="810" as="geometry" />
+        </mxCell>
+        <mxCell id="g-UDGQAxc-pjcr50-N9k-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g-UDGQAxc-pjcr50-N9k-2" target="g-UDGQAxc-pjcr50-N9k-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g-UDGQAxc-pjcr50-N9k-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g-UDGQAxc-pjcr50-N9k-2" target="g-UDGQAxc-pjcr50-N9k-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g-UDGQAxc-pjcr50-N9k-2" value="img&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;codigo -&amp;gt;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;port&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;8080&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-170" y="280" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="g-UDGQAxc-pjcr50-N9k-9" value="call nombre" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g-UDGQAxc-pjcr50-N9k-3" target="g-UDGQAxc-pjcr50-N9k-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g-UDGQAxc-pjcr50-N9k-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g-UDGQAxc-pjcr50-N9k-3" target="g-UDGQAxc-pjcr50-N9k-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="240" />
+              <mxPoint x="290" y="-70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g-UDGQAxc-pjcr50-N9k-3" value="&lt;b&gt;container1&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;localhost:8080&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ip privada&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;nombre DNS&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="370" y="190" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="g-UDGQAxc-pjcr50-N9k-7" value="&lt;b&gt;container2&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;localhost:8080&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ip privada&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;nombre DNS&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="370" y="400" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="g-UDGQAxc-pjcr50-N9k-10" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="70" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g-UDGQAxc-pjcr50-N9k-11" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g-UDGQAxc-pjcr50-N9k-12" value="&lt;b&gt;visualstudio&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;localhost:8080&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ip host&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;nombre DNS&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="550" y="-60" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="g-UDGQAxc-pjcr50-N9k-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g-UDGQAxc-pjcr50-N9k-14" target="g-UDGQAxc-pjcr50-N9k-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g-UDGQAxc-pjcr50-N9k-14" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.chrome" vertex="1" parent="1">
+          <mxGeometry x="760" y="-47.700000000000045" width="74.8" height="75.4" as="geometry" />
+        </mxCell>
+        <mxCell id="g-UDGQAxc-pjcr50-N9k-16" value="http://localhost:8080" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="710" y="-85" width="143" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g-UDGQAxc-pjcr50-N9k-18" value="9090" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="225" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g-UDGQAxc-pjcr50-N9k-20" value="9091" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="435" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g-UDGQAxc-pjcr50-N9k-21" value="http://localhost:9091" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="557" y="430" width="143" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g-UDGQAxc-pjcr50-N9k-22" value="http://localhost:9090" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="557" y="225" width="143" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g-UDGQAxc-pjcr50-N9k-23" value="&lt;b&gt;postgres12&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;localhost:5432&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ip privada&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;nombre DNS&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="310" y="30" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="g-UDGQAxc-pjcr50-N9k-24" value="localhost:5432" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="65" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g-UDGQAxc-pjcr50-N9k-25" value="&lt;b&gt;postgres16&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;localhost:5432&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ip privada&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;nombre DNS&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="310" y="-120" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="g-UDGQAxc-pjcr50-N9k-26" value="localhost:5666" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="404" y="-85" width="113" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g-UDGQAxc-pjcr50-N9k-27" value="jdbc:&lt;div&gt;localhost:5433&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="27.69999999999999" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g-UDGQAxc-pjcr50-N9k-29" value="jdbc:&lt;div&gt;postgres16:5432&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="417" y="270" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g-UDGQAxc-pjcr50-N9k-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g-UDGQAxc-pjcr50-N9k-31" target="g-UDGQAxc-pjcr50-N9k-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g-UDGQAxc-pjcr50-N9k-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g-UDGQAxc-pjcr50-N9k-31" target="g-UDGQAxc-pjcr50-N9k-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g-UDGQAxc-pjcr50-N9k-31" value="Dbeaver&lt;div&gt;SQL dev&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="557" y="-180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g-UDGQAxc-pjcr50-N9k-34" value="Postman" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="560" y="305" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
