@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ms-mz-producto
+  labels:
+    app: ms-mz-producto
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ms-mz-producto
+  template:
+    metadata:
+      labels:
+        app: ms-mz-producto
+    spec:
+      containers:
+      - name: ms-mz-producto
+        image: mauron/ms-mz-producto:14812627906
+        ports:
+        - containerPort: 8080
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "100m"
+          limits:
+            memory: "512Mi"
+            cpu: "500m"
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 8080
+          initialDelaySeconds: 40
+          periodSeconds: 10
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 8080
+          initialDelaySeconds: 60
+          periodSeconds: 30
+
+        

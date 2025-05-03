@@ -50,3 +50,18 @@ jobs:
       run: |
         docker tag $IMAGE_NAME ${{ secrets.DOCKER_USERNAME }}/$IMAGE_NAME
         docker push ${{ secrets.DOCKER_USERNAME }}/$IMAGE_NAME
+      
+  deploy:
+
+    runs-on: mint
+
+    needs: build
+
+    steps:
+          
+      - uses: actions/checkout@v4
+      
+      - name: Deploy kubernetes
+        run: |
+          cd k8s
+          kubectl apply -f .
